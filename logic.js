@@ -1,9 +1,9 @@
 function Datum(){
   setInterval(() => {
     const dtd =  new Date();
-    const dateString = "<span style='color: red;'>DATE: </span> " + dtd.getDate() + "<span style='color: red;'> / </span>" + (dtd.getMonth()+1) + "<span style='color: red;'> / </span>" + dtd.getFullYear() + "<span style='color: red;'> ||||| </span>" + dtd.getHours() + " : " + dtd.getMinutes() + " : " + dtd.getSeconds() + "." + dtd.getMilliseconds();
+    const dateString = "<span style='color: red;'>DATE: </span> " + dtd.getDate() + "<span style='color: red;'> / </span>" + (dtd.getMonth()+1) + "<span style='color: red;'> / </span>" + dtd.getFullYear() + "<span style='color: red;'> ||||| </span>" + dtd.getHours() + " : " + dtd.getMinutes() + " : " + dtd.getSeconds();
     document.getElementById("date").innerHTML = dateString;
-  }, 1);
+  }, 1000);
 }
 function Btc(){
   setInterval(() => {
