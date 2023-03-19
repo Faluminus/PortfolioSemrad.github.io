@@ -76,7 +76,7 @@ nav ul li p{
 }
 .txt2{
     font-size: 130px;
-    margin-top: -18vh;
+    margin-top: -130px;
     margin-right: 40px;
 
 }
@@ -87,7 +87,7 @@ nav ul li p{
     display: inline-block;
 }
 .computer{
-    width: 500px;
+    width: 600px;
     cursor: pointer;
 }
 .date-location{
@@ -169,7 +169,7 @@ nav ul li p{
 .vertical-line2{
    
 }
-@media(max-width:1300px)
+@media(max-width:1450px)
 {
  .line-main{
     display:none;
