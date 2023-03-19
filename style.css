@@ -4,16 +4,210 @@
     font-weight: 400;
     font-style: normal;
 }
+p{
+    margin: none;
+}
 body{
     background-color: #142031;
 }
-about-box{
-    width: 50%;
-    height:400px;
+.useless-info{
+    position: fixed;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #142031;
 }
-right-line-about{
-    background-color: #FF0000;
-    margin-top: 10px;
+nav{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 30px;
+}
+nav ul{
+    margin-left:-28px;
+    margin-top: -50px;
+    margin-right: auto;
+}
+nav ul li{
+    margin-left: -17px;
+    list-style-type: none;
+    list-style: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+nav ul li p{
+    position:relative;
+    color: white;
+    list-style: none;
+    text-decoration: none;
+    font-size: 20px;
+}
+.main{
+    height: 1fr;
+    display: grid;
+    grid-template-columns: 0.5fr 0.4fr 1.5fr 0.5fr;
+}
+.three-lines{
+    display: inline-block;
+}
+.line-main{
+    display:inline-block;
+    margin-top: 5vh;
+    margin-left: 2vw;
+    background-color: red;
+    width: 5px;
+    height: 80vh;
+}
+.logo-location{
+    margin-top: 5vh;
+    vertical-align: top;
+    display: inline-block;
+    height: 80vh;
+    text-align: right;
+    color: red;
+    
+}
+.txt1{
+    font-size: 130px;
+    margin-right: 15vw;
+}
+.txt2{
+    font-size: 130px;
+    margin-top: -18vh;
+    margin-right: 40px;
+
+}
+.comp-location{
+    padding: left 5px;;
+    margin-top: 15vh;
+    width: auto;
+    display: inline-block;
+}
+.computer{
+    width: 500px;
+    cursor: pointer;
+}
+.date-location{
+    font-size: 30px;
+}
+#date{
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+.filler{
+    display: block;
+    height:200px;
+    width: 100%;
+
+}
+.about{
+    display: block;
+    width:100%;
+}
+.holder{
+    display: grid;
+    grid-template-columns: 90% 5%;
+    color: red;
+}
+.about-txt{
+    display: inline-block;
+    color: red;
+    font-size: 40px;
+    margin-left: 6vw;
+    margin-bottom: -5vh;
+}
+.horizontal-line{
+    display: inline-block;
+    background-color: red;
+    margin-left: 15vw;
+    height:5px;
     width: 80%;
-    height: 4px;
+}
+.content{
+    display: grid;
+    grid-template-columns: 0.2fr 1fr;
+}
+.text{
+    color:white;
+    font-size: 2vw;
+    width: 100%;
+    margin-left: -10vw;
+    text-overflow: clip;
+    white-space: pre-line;
+    overflow: hidden;
+    text-align: justify;
+}
+.vertical-line{
+    margin-top: -15px;
+    margin-left: 4vw;
+    background-color: red;
+    align-items: left;
+    width:5px;
+    height: 400px;
+}
+.portfolio{
+    display: block;
+}
+.portfolio-content{
+    padding-left: 5vw;
+    display: block;
+    width: 100%;
+    height: 500px;
+}
+.horizontal-line2{
+    background-color: red;
+    height:5px;
+    width: 75%;
+}
+.portfolio-txt{
+    margin-left: -20vw;
+    margin-top: -20px;
+}
+.vertical-line2{
+   
+}
+@media(max-width:1300px)
+{
+ .line-main{
+    display:none;
+ }
+}
+@media(max-width:1032px)
+{
+    .computer{
+        width: 300px;
+    }
+    .text{
+        font-size: 20px;
+    }
+    nav ul li p{
+        font-size: 16px;
+    }
+    .filler{
+        height: 50px;
+    }
+}
+@media(max-width: 800px)
+{
+    .comp-location{
+        display: none;
+    }
+    .logo-location{
+        margin-right: -15vw;
+    }
+    .about-txt{
+        display: inline-block;
+        color: red;
+        font-size: 40px;
+        margin-left: 35vw;
+        margin-bottom: -5vh;
+    }
+    .horizontal-line{
+        margin-left: 8vw;
+        height:5px;
+        width: 80%;
+    }
 }
