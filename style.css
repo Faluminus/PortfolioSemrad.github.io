@@ -59,10 +59,10 @@ nav ul li p{
     margin-left: 2vw;
     background-color: red;
     width: 5px;
-    height: 80vh;
+    height: 90vh;
 }
 .logo-location{
-    margin-top: 5vh;
+    margin-top: 13vh;
     vertical-align: top;
     display: inline-block;
     height: 80vh;
@@ -167,7 +167,7 @@ nav ul li p{
     margin-top: -20px;
 }
 .vertical-line2{
-   
+   width:5px;
 }
 @media(max-width:1450px)
 {
