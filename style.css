@@ -109,7 +109,7 @@ nav ul li p{
 }
 .holder{
     display: grid;
-    grid-template-columns: 90% 5%;
+    grid-template-columns:90% 5% 2.5%;
     color: red;
 }
 .about-txt{
@@ -167,8 +167,36 @@ nav ul li p{
     margin-top: -20px;
 }
 .vertical-line2{
+    display: inline-block;
+    background-color: red;
    width:5px;
+   height: 500px;
 }
+.contact{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 200px;
+    height: 200px;
+    color: white;
+    text-align: center;
+}
+
+.contacts-holder{
+    display: grid;
+    grid-template-columns: 0.2fr 1fr;
+    margin-bottom: 20px;
+    width: 180px;
+
+}
+
+.dividing-line{
+    margin-left: 4px;
+    background-color: red;
+    width:3px;
+    height: 70%;
+}
+
+
 @media(max-width:1450px)
 {
  .line-main{
