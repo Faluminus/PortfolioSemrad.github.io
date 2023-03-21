@@ -99,7 +99,7 @@ nav ul li p{
 }
 .filler{
     display: block;
-    height:200px;
+    height:100px;
     width: 100%;
 
 }
@@ -173,7 +173,15 @@ nav ul li p{
    height: 500px;
 }
 .box{
-    
+    padding-left: 1vw ;
+}
+.picture{
+    width: 50%;
+}
+.left-line-picture{
+    background-color: red;
+    width: 2px;
+    height: 50%;
 }
 .contact{
     margin-left: 4vw;
