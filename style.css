@@ -211,6 +211,9 @@ nav ul li p{
  .line-main{
     display:none;
  }
+ .contact{
+    margin-top:none;
+ }
 }
 @media(max-width:1032px)
 {
