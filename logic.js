@@ -31,6 +31,23 @@ function Eth(){
     });
   }, 10000);
 }
+function Doge(){
+  setInterval(() =>{
+    fetch('https://api.coingecko.com/api/v3/simple/price?ids=dogecoin&vs_currencies=usd')
+    .then(response => response.json())
+    .then(data =>{
+      const dogePrice = "<span style='color: red;'>DOGE: </span> " + data.doge.usd+"$";
+      document.getElementById("doge").innerHTML = dogePrice;
+    })
+    .catch(error => {
+      console.error('Error fetching DogeCoin price:',error);
+    })
+  },10000)
+}
+function Va{
+  let a = 
+}
+Doge();
 Eth();
 Btc();
 Datum();
